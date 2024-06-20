@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <Navbar />
       <Sidebar />
-      <main className="ml-64 mt-16 px-5 py-3">
+      <main className="mt-16 px-5 py-3 lg:ml-64">
         <ProdcutSection title="Men Shoes" />
         <ProdcutSection title="Woman Shoes" />
         <ProdcutSection title="Popular Product" />

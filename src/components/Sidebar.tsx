@@ -3,7 +3,7 @@ import SidebarLink from './SidebarLink';
 
 export default function Sidebar() {
   return (
-    <aside className="fixed inset-y-0 left-0 z-40 mt-16 w-64 overflow-y-auto border-r bg-white pl-5">
+    <aside className="fixed inset-y-0 left-0 z-40 mt-16 hidden w-64 overflow-y-auto border-r bg-white pl-5 lg:block">
       <div className="py-3">
         <h3 className="font-semibold">Men Apparel</h3>
         <ul className="pl-5">

@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <nav className="fixed inset-x-0 top-0 z-50 h-16 border-b bg-white px-5">
       <div className="flex h-full items-center justify-between gap-x-10">
-        <h1 className="w-1/6 flex-none text-3xl">
+        <h1 className="hidden w-1/6 flex-none text-3xl lg:inline-block">
           <span className="font-bold">Zens</span>Store
         </h1>
         <div className="grow">
@@ -22,7 +22,7 @@ export default function Navbar() {
             </div>
           </form>
         </div>
-        <div className="flex w-1/6 flex-none items-center justify-end gap-x-5">
+        <div className="flex w-1/4 flex-none items-center justify-end gap-x-5 lg:w-1/6">
           <Link
             href="#"
             className="rounded-full border bg-gray-200 px-1.5 py-1.5 hover:bg-gray-300"
@@ -37,7 +37,7 @@ export default function Navbar() {
           </Link>
           <Link
             href="#"
-            className="rounded border border-black bg-black px-2 py-1 text-sm tracking-wide text-white hover:bg-black/85"
+            className="hidden rounded border border-black bg-black px-2 py-1 text-sm tracking-wide text-white hover:bg-black/85 lg:inline-block"
           >
             Register
           </Link>
